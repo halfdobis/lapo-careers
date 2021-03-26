@@ -1,0 +1,36 @@
+.job-search {
+    margin-top: 30px;
+}
+
+.search-wrapper a {
+    margin-top: 30px;
+    padding-left: 4px;
+    color: #000000;
+}
+
+.search-wrapper a:hover {
+    text-decoration: none !important;
+    color: grey;
+}
+
+.column .role-text {
+    font-size: 12px;
+}
+
+.column .sub-role-text {
+    font-size: 16px;
+}
+
+.page-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+
+@media(max-width: 767px) {
+    .job-role {
+        padding-left: 0;
+    }
+}

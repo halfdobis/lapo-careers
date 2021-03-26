@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+
+
+.home-box h3 {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 500px;
+    line-height: 25px;
+}
+
+.home-box p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 22px;
+    color: #000000;
+    font-weight: 400;
+}
+
+.quiz-box {
+    margin-top: 40px;
+}
+
+.quiz-box h4 {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.quiz-box .form-box {
+    padding: 3.5rem 4rem;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: contain;
+    border-radius: 1.5rem;
+    background-color: whitesmoke;
+    margin-bottom: 15px;
+}
+
+.quiz-box .form-control {
+    height: inherit;
+    padding: .500rem .75rem;
+    border: 3px solid #ced4da;
+}
+
+.quiz-box .form-control-file {
+    line-height: 35px;
+}
+
+.next-question-btn {
+    float: right;
+    text-decoration: none;
+    border: 2px solid orangered;
+    color: orangered;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+}
+
+.next-question-btn:hover {
+    box-shadow: 1px 1px 25px 10px rgba(64, 187, 115, 0.4);
+}
+
+.next-question-btn:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg,
+            transparent,
+            rgba(56, 190, 117, 0.4),
+            transparent);
+    transition: all 650ms;
+}
+
+.next-question-btn:hover:before {
+    left: 100%;
+}
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+    .home-box {
+        padding: 15px;
+    }
+
+    .quiz-box .form-box {
+        padding: 25px 0 20px 0;
+    }
+
+}

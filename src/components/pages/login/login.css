@@ -1,0 +1,239 @@
+.login {
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: contain;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 111.1rem;
+    height: 33rem;
+    border-radius: 1.5rem;
+    /* margin-bottom: 100px; */
+    margin-top: 50px;
+    background-image: url('../../../assets/bg-pattern-hero-home.svg');
+    background-color: #f7f4f4;
+    padding: 3.5rem 4rem;
+}
+
+.contact-content h2 {
+    animation: bop 1s cubic-bezier(0.175, 0.3885, 0.32, 1.275) forwards infinite alternate;
+}
+
+@keyframes bop {
+    0% {
+        transform: scale(0.9);
+    }
+
+    50%,
+    100% {
+        transform: scale(1);
+    }
+}
+
+.contact-content input[type=submit] {
+    height: 30px;
+    width: 100px;
+    color: #ffffff;
+    font-size: 15px;
+    background: #fe6f2f;
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}
+
+.contact-content input[type=submit]:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.contact-form {
+    height: 100%;
+    width: 100%;
+    animation: slideIn 1.0s ease-in-out forwards;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(500px) scale(.2);
+    }
+
+    100% {
+        transform: translateX(0px) scale(1);
+    }
+}
+
+.contact-form h2 {
+    margin: 0;
+    padding: 0 0 20px;
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contact-form p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #000000;
+}
+
+.contact-form input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contact-form input[type=email],
+.contact-form input[type=name],
+.contact-form input[type=number],
+.contact-form input[type=password] {
+    border: none;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+    outline: none;
+    height: 35px;
+    color: #000000;
+    font-size: 15px;
+}
+
+.button-container-1 {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    overflow: hidden;
+    border: 1px solid #fe6f2f;
+    font-size: 20px;
+    transition: 0.5s;
+    letter-spacing: 1px;
+    border-radius: 8px;
+}
+
+.button-container-1 button {
+    width: 101%;
+    height: 100%;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    background: #fe6f2f;
+    -webkit-mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/nature-sprite.png");
+    mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/nature-sprite.png");
+    -webkit-mask-size: 2300% 100%;
+    mask-size: 2300% 100%;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    -webkit-animation: ani2 0.7s steps(22) forwards;
+    animation: ani2 0.7s steps(22) forwards;
+}
+
+.button-container-1 button:hover {
+    -webkit-animation: ani 0.7s steps(22) forwards;
+    animation: ani 0.7s steps(22) forwards;
+}
+
+.mas {
+    position: absolute;
+    color: #000;
+    text-align: center;
+    width: 101%;
+    position: absolute;
+    font-size: 11px;
+    margin-top: 17px;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+@-webkit-keyframes ani {
+    from {
+        -webkit-mask-position: 0 0;
+        mask-position: 0 0;
+    }
+
+    to {
+        -webkit-mask-position: 100% 0;
+        mask-position: 100% 0;
+    }
+}
+
+@keyframes ani {
+    from {
+        -webkit-mask-position: 0 0;
+        mask-position: 0 0;
+    }
+
+    to {
+        -webkit-mask-position: 100% 0;
+        mask-position: 100% 0;
+    }
+}
+
+@-webkit-keyframes ani2 {
+    from {
+        -webkit-mask-position: 100% 0;
+        mask-position: 100% 0;
+    }
+
+    to {
+        -webkit-mask-position: 0 0;
+        mask-position: 0 0;
+    }
+}
+
+@keyframes ani2 {
+    from {
+        -webkit-mask-position: 100% 0;
+        mask-position: 100% 0;
+    }
+
+    to {
+        -webkit-mask-position: 0 0;
+        mask-position: 0 0;
+    }
+}
+
+.contact-form a:hover {
+    text-decoration: none !important;
+}
+
+.hide {
+    display: none;
+}
+
+
+
+@media (max-width: 990px) {
+    .login {
+        flex-direction: column;
+        max-width: 68.9rem;
+        height: 50rem;
+        justify-content: space-between;
+        padding: 3rem 5rem;
+        background-size: auto;
+        background-position: -15rem -10rem;
+    }
+
+    .contact-form {
+        height: 28rem;
+    }
+}
+
+@media (max-width: 564px) {
+    .login {
+        margin: 0;
+        padding: 3.5rem 3.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .login {
+        margin: 0;
+        border-radius: 0;
+        padding: 3rem 1rem;
+    }
+}

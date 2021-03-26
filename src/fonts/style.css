@@ -1,0 +1,171 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?9j0zdj');
+  src:  url('fonts/icomoon.eot?9j0zdj#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?9j0zdj') format('truetype'),
+    url('fonts/icomoon.woff?9j0zdj') format('woff'),
+    url('fonts/icomoon.svg?9j0zdj#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home1:before {
+  content: "\e923";
+}
+.icon-youtube2:before {
+  content: "\e91e";
+}
+.icon-instagram1:before {
+  content: "\e915";
+}
+.icon-social-twitter:before {
+  content: "\e914";
+}
+.icon-social-facebook:before {
+  content: "\e911";
+}
+.icon-lapo-double_arrow-1:before {
+  content: "\e910";
+}
+.icon-lapo-user-1:before {
+  content: "\e90e";
+}
+.icon-lapo-search-1:before {
+  content: "\e90c";
+}
+.icon-lapo-search-2:before {
+  content: "\e90b";
+}
+.icon-googlescholar:before {
+  content: "\e921";
+  color: #4885ed;
+}
+.icon-googleplay:before {
+  content: "\e91b";
+  color: #607d8b;
+}
+.icon-apple1:before {
+  content: "\e91a";
+}
+.icon-linkedin1:before {
+  content: "\e918";
+}
+.icon-instagram2:before {
+  content: "\e916";
+}
+.icon-twitter1:before {
+  content: "\e913";
+}
+.icon-youtube-play:before {
+  content: "\e91f";
+}
+.icon-whatsapp1:before {
+  content: "\e920";
+}
+.icon-play:before {
+  content: "\e91c";
+}
+.icon-apple1:before {
+  content: "\e91a";
+}
+.icon-linkedin1:before {
+  content: "\e918";
+}
+.icon-instagram2:before {
+  content: "\e916";
+}
+.icon-twitter1:before {
+  content: "\e913";
+}
+.icon-youtube-play:before {
+  content: "\e91f";
+}
+.icon-lapo-search-3:before {
+  content: "\e90a";
+}
+.icon-lapo-lock-1:before {
+  content: "\e902";
+}
+.icon-lapo-lock-2:before {
+  content: "\e903";
+}
+.icon-lapo-lock-open-1:before {
+  content: "\e904";
+}
+.icon-lapo-lock-open-2:before {
+  content: "\e905";
+}
+.icon-lapo-lock-3:before {
+  content: "\e906";
+}
+.icon-lapo-lock-open-3:before {
+  content: "\e907";
+}
+.icon-lapo-lock-open-4:before {
+  content: "\e908";
+}
+.icon-lapo-lock-4:before {
+  content: "\e909";
+}
+.icon-youtube1:before {
+  content: "\e91d";
+}
+.icon-linkedin:before {
+  content: "\e917";
+}
+.icon-twitter:before {
+  content: "\e912";
+}
+.icon-lapo-user-2:before {
+  content: "\e90d";
+}
+.icon-lapo-lock-5:before {
+  content: "\e900";
+}
+.icon-lapo-lock-open-5:before {
+  content: "\e901";
+}
+.icon-apple:before {
+  content: "\e919";
+}
+.icon-lapo-minus-1:before {
+  content: "\e90f";
+}
+.icon-lapo-search-4:before {
+  content: "\e986";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-appleinc:before {
+  content: "\eabe";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-home:before {
+  content: "\e922";
+}
+.icon-whatsapp:before {
+  content: "\ea93";
+}
+
